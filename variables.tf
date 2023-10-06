@@ -18,3 +18,9 @@ variable "acr_sku" {
 variable "ssh_public_key" {
   default = "C:/Users/vvino/.ssh/id_rsa.pub"
 }
+variable "service_principal_name" {
+    type = string
+}
+variable "keyvault_name" {
+    type = string
+}
